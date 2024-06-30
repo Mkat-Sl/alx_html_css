@@ -1,0 +1,257 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+@font-face {
+    font-family: spinCycleOt;
+    src: url(Spin-Cycle-OT);
+    font-family: source-sans-Pro;
+    src: url(source-sans-pro);
+}
+header{
+    padding: 2em;
+    color: #ffffff;
+}
+body{
+    overflow-x: hidden;
+}
+.pros-container{
+    line-height: 2em;
+    margin-left: 4em;
+}
+.pros-container img.img{
+    border-radius: 50%;
+    background-color: #C271FF;
+}
+header, .intro{
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.intro{
+    width:100%;
+    height: 100vh;
+    background-color: #C271FF;
+    position: relative;
+    top: 40%;
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 1em;
+}
+.banner h1{  
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'spinCycleOt';
+
+}
+#pros{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+span{
+    margin-left: 3em;
+}
+.btn{
+    background-color: #C271FF;
+    display: block;
+    position: relative;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 2em;
+    
+   
+}   
+.learning{
+    position: relative;
+    top: 10%;
+
+}
+#pros{
+    margin-top: 3em;
+
+}
+.banner  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+}
+#quote{
+    background-color: #C271FF;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+blockquote{
+    margin-bottom: 2em;
+    font-size: medium;
+}
+.blockquote{
+    margin-left: 2em;
+}
+
+#tutorials{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto auto auto auto;
+    line-height: 1.5em;
+    margin-left: 1em;
+    
+
+}
+#tutorials p{
+    color: gray;
+}
+#tutorials h3{
+    color: #071629;
+}
+#smile-type h2{
+    color: #071629;
+}
+div .stars{
+
+    display: flex;
+    flex-direction: row;
+}
+.stars i, h4{
+    color: #C271FF;
+}
+.splitTutorials{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating img{
+    width: 30px;
+    height: 30px;
+    top: 261px;
+    left: 13px;
+    margin-right: 1em;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.com p{
+    position: relative;
+    right: px;
+}
+.min{
+   position: relative;
+   bottom: 1em;
+   left: 16em;
+
+}
+.word{
+    color: #C271FF;
+}
+                    /* Membership Section */
+#Membership{
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 4em;
+    
+    
+   
+}
+.membership{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2em;
+    
+}
+.membership-content{
+    line-height: 2em;
+}
+#Membership h2{
+    margin-bottom: 4em;
+}
+#Membership button{
+    background-color: #C271FF;
+    border-radius: 2em;
+    width: 20em;
+    margin-top: 1em;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+}
+                /* F.A.Q. */
+.faq{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 8em;
+    margin-left: 2em;
+}
+.faq div{
+    margin-bottom: 1.5em;
+}
+.row-gap{
+    row-gap: 2em;
+}
+.FAQ h2,h3{
+    color: #071629;
+}
+.FAQ{
+    background-color: #C271FF;
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+
+            /* Footer */
+#Footer{
+    background-color: #071629;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4em;
+    
+}
+.social i{
+    color: #071629;
+    padding: .5em;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+#Footer P{
+position: relative;
+left: 50%;
+right: 50%;
+color: gray;
+}
