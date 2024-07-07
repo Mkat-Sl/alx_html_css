@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    color: #FFFFFF;
+}
+.menu{
+visibility: hidden;}
+header{
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (min-width:375px) {
+        nav{
+            /* change your position */
+          position: fixed;
+          /* z-index: -9; */
+          z-index: 100;
+          width: 100%;
+          height:1vh;
+        }
+        nav li{
+            margin-top: 2em;
+        }
+        nav a{
+            padding: 2em;
+        }
+        .menu{
+            visibility: visible;
+           
+        }
+        .holberton_school-icon-menu{
+            position: relative;
+
+        }
+      
+        .toggle-menu{
+            /* position: absolute; */
+            width: 1em;
+            height: 100%;
+            z-index: 3;
+            /* opacity: 0; */
+        }
+        input:checked ~ .holberton_school-icon-menu{
+            transform: translateX(2);
+        }
+
+      
+    }
+}
+header img{
+    width: 100px;
+}
+header, #introduction{
+    background-image: url(headphone-images/images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+};
+nav li{
+    display: inline-block;
+  
+}
+nav a{
+    color: #ffffff;
+    margin-right: 15px;
+
+}
+
+nav a:hover{
+    color: #FF6565;
+}
+#introduction{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#introduction p{
+    text-align: center;
+}
+#introduction button{
+    margin: 2em;
+    padding: 1em;
+    border-color: transparent;
+    background-color:#FF6565;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 20px;
+
+}
+#whatWeDo{
+    color: #000000;
+    text-align: center;
+    padding: 2em;
+}
+#whatWeDo .content h1{
+    margin: 2em;
+}
+#whatWeDo .content p{
+    margin: 2em;
+}
+
+.weDo div div{
+    color: #FF6565;
+    font-size: 2em;
+}
+#whatWeDo .weDo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#ourResult{
+    font-display: grid;
+    grid-template-columns: auto ;
+    text-align: center;
+    padding: 2em;
+    background-image: url(headphone-images/images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#ourResult p{
+    margin: 1em;
+}
+#ourResult div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding:2em;
+  
+    /* @media (min-width:375px){
+            grid-template-columns: auto;
+        
+    } */
+}
+.percentage img{
+    width: 100px;
+}
+.location{
+    position: relative;
+    color: #ffffff;
+   
+}
+.location h3{
+    position: absolute;
+    top:70px;
+    left: 65px;
+    /* bottom: 2px;
+    left: 50px;
+    bottom: 50px; */
+}
+.location  p{
+    position: absolute;
+    top:80px;
+    left: 50px;
+    margin-top: 2em;
+    font-size: 8px;
+
+}
+
+
+button:hover{
+    opacity: 0.9;
