@@ -210,6 +210,9 @@ form{
 #contactUs{
     text-align: center;
 }
+button:hover{
+    opacity: 0.9;
+}
 footer{
     background-color:#071629;
     color: #FFFFFF;
