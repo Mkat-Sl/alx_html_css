@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+    color: #ffffff;
+}
+
+#ourResult{
+    font-display: grid;
+    grid-template-columns: auto ;
+    text-align: center;
+    padding: 2em;
+    background-image: url(headphone-images/images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#ourResult p{
+    margin: 1em;
+}
+#ourResult div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* column-gap: 2px; */
+    /* Made your next section (pentagone) untidy(disability to resize) */
+    /* padding:2em; */
+}
+
+.location{
+    position: relative;
+    color: #ffffff;
+   
+}
+.location h3{
+    position: absolute;
+    top:-8px;
+    left: 65px;
+   
+}
+.location  p{
+    position: absolute;
+    top:10px;
+    left: 50px;
+    margin-top: 2em;
+    font-size: 8px;
+
+}
+.location{
+    margin-top: 8em;
+}
+
+#pentagoneCss .pentagoneCss{
+    height: 0px;
+    width: 160px;
+    border-top: 80px solid #FF6565;
+    border-right: 40px solid  transparent ;
+    border-left: 40px solid  transparent;
+    position: relative;
+}
+
+#pentagoneCss .pentagoneCss:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 80px solid  #FF6565;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    bottom: 80px;
+    left: -40px;
+}
